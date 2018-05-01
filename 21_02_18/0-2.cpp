@@ -45,6 +45,8 @@ int main() {
 	initArray(A, N);
 	printArray(A, N);
 	cout<<MaxLength(A, N);
+	delete[] A;
+	//Освободил :)
 // почему память не освобождаем????
 	system("pause");
 	return 0;

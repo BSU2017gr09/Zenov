@@ -55,6 +55,8 @@ int main() {
 	printArray(A, N);
 	my_Shift(A, N, k);
 	printArray(A, N);
+	delete[] A;
+	//Освободил :)
 // почему память не освобождаем????
 	system("pause");
 	return 0;
